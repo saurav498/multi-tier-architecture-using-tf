@@ -54,11 +54,11 @@ The Web Tier is the entry point for incoming user requests. It typically include
 
 ### Web Tier Configuration
 
-- [Launch Template Configuration](launch-template-web.tf)
-- [Load Balancer Configuration](alb-web.tf)
-- [Auto Scaling Configuration](asg-web.tf)
-- [Security Group Configuration of Load balancer](alb-web-sg.tf)
-- [Security Group Configuration of Auto Scaling Group](asg-web-sg.tf)
+- [Launch Template Configuration](1-launch_template_web.tf)
+- [Load Balancer Configuration](1-alb_web.tf)
+- [Auto Scaling Configuration](1-asg_web.tf)
+- [Security Group Configuration of Load balancer](1-alb_web_sg.tf)
+- [Security Group Configuration of Auto Scaling Group](1-asg_web_sg.tf)
 
 ## 🚀 Application Tier
 
@@ -71,11 +71,11 @@ The Application Tier hosts the application servers responsible for running busin
 
 ### Application Tier Configuration
 
-- [Launch Template Configuration](launch-template-app.tf)
-- [Load Balancer Configuration](alb-app.tf)
-- [Auto Scaling Configuration](asg-app.tf)
-- [Security Group Configuration of Load balancer](alb-app-sg.tf)
-- [Security Group Configuration of Auto Scaling Group](asg-app-sg.tf)
+- [Launch Template Configuration](2-launch_template_app.tf)
+- [Load Balancer Configuration](2-alb_app.tf)
+- [Auto Scaling Configuration](2-asg_app.tf)
+- [Security Group Configuration of Load balancer](2-alb_app_sg.tf)
+- [Security Group Configuration of Auto Scaling Group](2-asg_app_sg.tf)
 
 ## 💽 Database Tier
 
@@ -86,9 +86,9 @@ The Database Tier stores and manages our application data. We use Amazon RDS for
 
 ### Database Tier Configuration
 
-- [DB Subnet group Configuration](db-subnet-group.tf)
-- [Amazon RDS Configuration](rds.tf)
-- [Security Group Configuration](db-sg.tf)
+- [DB Subnet group Configuration](3-db_subnet_group.tf)
+- [Amazon RDS Configuration](3-rds.tf)
+- [Security Group Configuration](3-db_sg.tf)
 
 ## 🔧 Terraform Configuration
 
