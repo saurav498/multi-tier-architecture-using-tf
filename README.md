@@ -129,8 +129,5 @@ Follow these steps to deploy the architecture:
 ### Security Considerations
 - Review and customize the security groups and network ACLs to meet your specific security requirements.
 
-## 🤝 Contributing
-Contributions are Welcome! Please read my Contributing Guidelines to get started with contributing to this project.
-
 ## 📄 License
 This project is licensed under the MIT License.
